@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_SMARTY_PRINCE_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","OwnerofTheDenki")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "Prince1_music_bot")
 # --------------------------------------------------------
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tamilchat_5")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tamilchat_5")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSIC_BOT_TEAM")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FANTASTIC_FAMILY_TAMIL")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
