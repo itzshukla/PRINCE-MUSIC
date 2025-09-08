@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_SMARTY_PRINCE_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","OwnerofTheDenki")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Prince1_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "AmeliaMusic_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "PRINCE")
 # ---------------------------------------------------------
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002018556839))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001836790644))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6762113050))
+OWNER_ID = int(getenv("OWNER_ID", 7252249791))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/l_ABOUT_PRINCE_l")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GOSSiiP_PLANET")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/JALLI_KATTU_KALA143")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/JALLI_KATTU_KALA143")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -174,13 +174,13 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 if SUPPORT_CHANNEL:
     if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://t.me/JALLI_KATTU_KALA143"
         )
 
 if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://t.me/JALLI_KATTU_KALA143"
         )
 # ---------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------
