@@ -1,4 +1,4 @@
-from PRINCEMUSIC.core.bot import PRINCE
+from PRINCEMUSIC.core.bot import Aviax
 from PRINCEMUSIC.core.dir import dirr
 from PRINCEMUSIC.core.git import git
 from PRINCEMUSIC.core.userbot import Userbot
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = PRINCE()
+app = Aviax()
 userbot = Userbot()
 
 
