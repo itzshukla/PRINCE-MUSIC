@@ -12,7 +12,7 @@ numpy
 opencv-python
 pillow
 psutil
-pytgcalls>=3.0.0.dev6
+py-tgcalls==2.2.8
 pytgcrypto
 kurigram
 python-dotenv
