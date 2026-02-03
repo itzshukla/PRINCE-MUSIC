@@ -1,73 +1,155 @@
 {
+
     "name": "𝙿𝚁𝙸𝙽𝙲𝙴 𝙼𝚄𝚂𝙸𝙲",
+
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/b61227af05544deb76a34.jpg",
+
+    "logo": "https://telegra.ph/Aviax-02-24",
+
     "keywords": [
+
     "python3",
+
     "telegram",
+
     "bot",
-    "SHUKLA",
+
+    "Aviax",
+
     "MusicBot",
+
     "telegram-bot",
+
     "pyrogram"
+
     ],
+
     "env": {
+
       "API_ID": {
+
         "description": "Get this value from https://my.telegram.org",
-        "value": "29308061",
+
+        "value": "",
+
         "required": true
+
       },
+
       "API_HASH": {
+
         "description": "Get this value from https://my.telegram.org",
-        "value": "462de3dfc98fd938ef9c6ee31a72d099",
+
+        "value": "",
+
         "required": true
+
       },
+
       "BOT_TOKEN": {
+
         "description": "A Bot's token from Botfather",
+
         "value": "",
+
         "required": true
+
       },
+
       "MONGO_DB_URI": {
+
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority",
+
+        "value": "",
+
         "required": true
+
       },
+
       "OWNER_ID": {
+
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6762113050",
+
+        "value": "",
+
         "required": true
+
       },
+
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
+
+        "description": "A Pyrogram v2 String Session from Replit.",
+
         "value": "",
+
         "required": true
+
       },
+
       "HEROKU_API_KEY": {
+
         "description": "Your Heroku account's API key",
+
         "value": "",
+
         "required": false
+
       },
+
       "HEROKU_APP_NAME": {
+
         "description": "Your heroku app name",
+
         "value": "",
+
         "required": false
+
       },
-      "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1002018556839",
+
+      "API_KEY": {
+
+        "description": "Your API key from console.nexgenbots.xyz",
+
+        "value": "",
+
         "required": true
+
+      },
+
+      "LOG_GROUP_ID": {
+
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Do not ever try to put channel ID here.",
+
+        "value": "",
+
+        "required": true
+
       }
+
     },
+
     "buildpacks": [
+
           {
+
               "url": "heroku/python"
+
           },
+
           {
+
               "url": "heroku/nodejs"
+
           },
+
           {
+
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+
           }
+
       ],
+
       "stack": "container"
-  }
+
+}
