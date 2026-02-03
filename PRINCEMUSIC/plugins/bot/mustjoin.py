@@ -6,7 +6,7 @@ from PRINCEMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "l_ABOUT_PRINCE_l"
+MUST_JOIN = "JALLI_KATTU_KALA143"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):

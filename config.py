@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_SMARTY_PRINCE_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","OwnerofTheDenki")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "Prince1_music_bot")
 # --------------------------------------------------------
@@ -29,6 +29,10 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "KHWAAISH_HOON")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
+
+# Vars For API End Pont.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
+YT_API_KEY = getenv("YT_API_KEY" , 'xbit_e40oXFazWDFy6rLPPICI1M8KdlW-91Dc' ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 # ----------------------------------------------------------------
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
@@ -53,7 +57,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/itzshukla/PRINCE-MUSIC",
+    "https://github.com/denki307/PRINCE-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -67,8 +71,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/l_ABOUT_PRINCE_l")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GOSSiiP_PLANET")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSIC_BOT_WORLD")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+CXTNvPxKHydkMjdl")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
