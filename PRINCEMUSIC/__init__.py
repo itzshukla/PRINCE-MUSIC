@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Aviax()
+app = PRINCE()
 userbot = Userbot()
 
 
