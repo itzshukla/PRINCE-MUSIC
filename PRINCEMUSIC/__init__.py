@@ -14,7 +14,6 @@ heroku()
 app = PRINCE()
 userbot = Userbot()
 
-
 from .platforms import *
 
 Apple = AppleAPI()
