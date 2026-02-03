@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from PRINCEMUSIC import LOGGER, app, userbot
-from PRINCEMUSIC.core.call import Aviax
+from PRINCEMUSIC.core.call import PRINCE
 from PRINCEMUSIC.misc import sudo
 from PRINCEMUSIC.plugins import ALL_MODULES
 from PRINCEMUSIC.utils.database import get_banned_users, get_gbanned
