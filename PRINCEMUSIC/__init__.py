@@ -1,4 +1,4 @@
-from PRINCEMUSIC.core.bot import Aviax
+from PRINCEMUSIC.core.bot import PRINCE
 from PRINCEMUSIC.core.dir import dirr
 from PRINCEMUSIC.core.git import git
 from PRINCEMUSIC.core.userbot import Userbot
