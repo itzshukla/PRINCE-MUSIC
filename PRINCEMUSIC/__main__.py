@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from PRINCEMUSIC import LOGGER, app, userbot
-from PRINCEMUSIC.core.call import PRINCE
+from PRINCEMUSIC.core.call import Aviax
 from PRINCEMUSIC.misc import sudo
 from PRINCEMUSIC.plugins import ALL_MODULES
 from PRINCEMUSIC.utils.database import get_banned_users, get_gbanned
@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐍𝐨𝐭 𝐅𝐢𝐥𝐥𝐞𝐝, 𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐢𝐥𝐥 𝐀 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐒𝐞𝐬𝐬𝐢𝐨𝐧")
+        LOGGER(__name__).error("Assistant client variables not defined, exiting...")
         exit()
     await sudo()
     try:
@@ -35,27 +35,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("PRINCEMUSIC.plugins" + all_module)
-    LOGGER("PRINCEMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("AviaxMusic.plugins" + all_module)
+    LOGGER("AviaxMusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
-    await PRINCE.start()
+    await Aviax.start()
     try:
-        await PRINCE.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Aviax.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("PRINCEMUSIC").error(
-            "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗣𝗥𝗜𝗡𝗖𝗘 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
+        LOGGER("AviaxMusic").error(
+            "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
-    await PRINCE.decorators()
-    LOGGER("PRINCEMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗣𝗥𝗜𝗡𝗖𝗘\n╚═════ஜ۩۞۩ஜ════╝"
+    await Aviax.decorators()
+    LOGGER("AviaxMusic").info(
+        "\x41\x76\x69\x61\x78\x20\x4d\x75\x73\x69\x63\x20\x53\x74\x61\x72\x74\x65\x64\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6c\x6c\x79\x2e\x0a\x0a\x44\x6f\x6e\x27\x74\x20\x66\x6f\x72\x67\x65\x74\x20\x74\x6f\x20\x76\x69\x73\x69\x74\x20\x40\x4e\x65\x78\x47\x65\x6e\x42\x6f\x74\x73"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("PRINCEMUSIC").info("𝗦𝗧𝗢𝗣 𝗣𝗥𝗜𝗡𝗖𝗘 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("AviaxMusic").info("Stopping Aviax Music Bot...")
 
 
 if __name__ == "__main__":
